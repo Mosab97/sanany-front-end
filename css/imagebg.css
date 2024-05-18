@@ -1,0 +1,87 @@
+
+.feature-style-two:before{
+  position: absolute;
+  content: '';
+  background: url(../images/dots3.png);
+  width: 130px;
+  height: 231px;
+  left: 0px;
+  top: 275px;
+  background-repeat: no-repeat;
+}
+.feature-style-two:after{
+  position: absolute;
+  content: '';
+  background: url(../images/dots4.png);
+  width: 93px;
+  height: 251px;
+  right: 0;
+  bottom: 250px;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.iamge_block_02 .image:nth-child(2):after {
+  position: absolute;
+  content: '';
+  background: url(../images/dots6.png);
+  width: 170px;
+  height: 110px;
+  left: -74px;
+  bottom: -34px;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.iamge_block_02 .image:nth-child(2):before {
+  position: absolute;
+  content: '';
+  background: url(../images/dots5.png);
+  width: 170px;
+  height: 110px;
+  right: -74px;
+  top: 42px;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.feature-second .iamge_block_02 .image:nth-child(2):after,
+.feature-second .iamge_block_02 .image:nth-child(2):before{
+  display: none;
+}
+.feature-second .iamge_block_02 .image:nth-child(1):after {
+  position: absolute;
+  content: '';
+  background: url(../images/dots6.png);
+  width: 110px;
+  height: 170px;
+  right: -38px;
+  bottom: 30px;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.feature-second .iamge_block_02 .image:nth-child(1):before {
+  position: absolute;
+  content: '';
+  background: url(../images/dots7.png);
+  width: 170px;
+  height: 110px;
+  left: -99px;
+  top: 10px;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+
+
+.screen-shots:before {
+  position: absolute;
+  content: '';
+  background: url(../images/dots1.png);
+  width: 58px;
+  height: 220px;
+  left: 0;
+  top: 100px;
+  background-repeat: no-repeat;
+}
+
+
+
+

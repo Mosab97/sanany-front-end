@@ -1,0 +1,177 @@
+
+@font-face {
+    font-family: 'DINN';
+    src: url(../fonts/DINNextLTArabic-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'DINN';
+    src: url(../fonts/DINNextLTArabic-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'DINN';
+    src: url(../fonts/DINNextLTArabic-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'DINN';
+    src: url(../fonts/DINNextLTArabic-Bold.ttf);
+    font-weight: 700;
+}
+html, body {
+    font-family: 'DINN'!important;
+    direction: rtl;
+}
+h1,h2,h3,h4,h5,h6, p{
+    font-family: 'DINN'!important;
+
+}
+.logo-box,.sticky-header .logo-box,
+.main-menu .navigation > li,
+.main-menu,.main-footer .footer-bottom li{
+    float: right;
+}
+.menu-area,.sticky-header .main-menu {
+    float: left!important;
+}
+.main-menu .navigation > li:first-child {
+    margin-left: 50px!important;
+}
+
+.sticky-header .main-menu .navigation > li {
+    margin-right: 0!important;
+}
+
+
+
+.main-menu .navigation > li:last-child {
+    margin-left: 0!important;
+    margin-right: 25px!important;
+}
+.main-menu .navigation > li:first-child,
+.main-menu .navigation > li:last-child{
+    margin-left: 25px!important;
+}
+.main-header .menu-area .btn-box {
+    margin: 55px 50px 0px 0px;
+}
+.banner-section .image-box {
+    text-align: left;
+}
+.banner-section .content-box,.content_block_02 .content-box .list-item li,
+.content_block_02,.content_block_02 .content-box p, #content_block_03 .content-box p,
+.testimonial-section .sec-title,.block-title,.contact .contact-block .form-inner .message-btn,
+.testimonial-section .content-box,.testimonial-section .inner-box,
+.main-footer .footer-top .about-widget{
+    text-align: right;
+}
+.banner-section .content-box h1 {
+    font-size: 90px;
+}
+.download-btn .google-play-btn {
+    margin-right: 0;
+    margin-left: 32px;
+}
+.banner-section .image-box figure:after {
+    left: -81px;
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    right: unset;
+}
+.banner-section .image-box figure:before {
+    right: 178px;
+}
+.content_block_02 .content-box{
+    margin-right: 0;
+    margin-left: 100px;
+}
+.iamge_block_02 .image-2,
+.content_block_02 .content-box .list-item li:before{
+    right: 0;
+    left: auto;
+}
+.iamge_block_02 .image-box .image-1 {
+    left: 50px;
+    right: auto;
+}
+.content_block_02 .content-box .list-item li {
+    padding-left: 0;
+    padding-right: 39px;
+}
+.feature-second .iamge_block_02 .image-2 {
+    left: 0;
+    right: auto;
+}
+.feature-second .iamge_block_02 .image-box .image-1 {
+    left: 170px;
+    right: auto;
+}
+.testimonial-section:before {
+    right: 0;
+    left: auto;
+    border-left: 1px solid #e7e8ea;
+    border-right: 0;
+
+}
+
+.testimonial-section ul.download-list li {
+    padding-left: 0;
+    padding-right: 36px;
+}
+.testimonial-section ul.download-list li:before {
+    right: 0;
+    left: auto;
+    transform: scale(-1);
+    -webkit-transform: scale(-1);
+}
+.owl-theme .owl-dots {
+    position: absolute;
+    right: -241px;
+    left: auto;
+}
+.contact .contact-block .form-inner {
+    margin-left: 150px;
+    margin-right: auto;
+    text-align: right;
+}
+.contact ul.contact-details li {
+    padding-left: 0;
+    padding-right: 35px;
+    text-align: right;
+}
+.contact ul.contact-details li:before {
+    right: 0;
+    left: auto;
+}
+.main-footer .footer-bottom li {
+    margin-right: 0;
+    margin-left: 30px;
+}
+.main-footer .footer-top .footer-column,
+.social-links{
+    text-align: left;
+}
+.main-footer .footer-top .social-links li {
+    float: left;
+}
+.main-footer .footer-top .social-links li:first-child {
+    margin-left: 0;
+}
+.main-footer .footer-top .links-widget .list li {
+    padding-left: 45px;
+    padding-right: 0;
+}
+.main-footer .footer-top .links-widget .list li:last-child {
+    padding-left: 0;
+}
+.contact .contact-block:before{
+    left: auto;
+    right: -62px;
+}
+.sticky-header .main-menu .navigation > li {
+    margin: 0!important;
+}
